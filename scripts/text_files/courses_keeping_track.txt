@@ -1,0 +1,80 @@
+
+Big Data Applications
+Architect and Build Big Data Applications
+
+Introduction to Big Data
+Learning Apache Cassandra
+Introduction to Apache Kafka
+Introduction to Apache Spark
+	(Study Guide for the Developer Certification for Apache Spark)
+Building Big Data Platforms
+Architectural Considerations for Hadoop Applications
+An Introduction to Time Series with Team Apache
+
+No assessment needed (compilation):
+Building Big Data Platforms
+
+Remaining:
+Introduction to Apache Spark
+An Introduction to Time Series with Team Apache
+
+
+Assessment in progress:
+
+
+Assessment created (i.e., local txt file):
+
+Introduction to Apache Kafka (see final edits)
+
+
+Assessment _yaml created _committed github:
+__Introduction to Big Data
+_Learning Apache Cassandra
+_Architectural Considerations for Hadoop Applications for Big Data LP
+_Architectural Considerations for Hadoop Applications for Hadoop LP
+
+
+Need select all flag:
+
+
+
+
+question_instruction: Select all that apply.
+
+Have select all flag:
+
+architectural_considerations_big_data.yml
+architectural_considerations_hadoop2.yml
+data_structures.yml	
+intro_hive.yml			
+introduction_set_theory.yml	
+intro_yarn.yml	
+learning_apache_hadoop.yml	
+learning_data_modeling.yml		
+learning_sql.yml
+learn_sql_oracle.yml		
+ml1_intro.yml
+ml2_advanced_ml.yml
+normal_forms.yml
+relational_theory.yml
+sql_beyond_the_basics.yml
+time_and_relational_theory.yml
+view_updating.yml
+learning_cassandra.yml
+
+
+
+
+recommitted with select all flag:
+
+
+
+do not need to be recommitted:
+
+assessment_template.yml
+cwa.yml	
+hadoop_for_data_scientists.yml
+intro_big_data.yml
+nullology.yml
+nulls_3vlogic_missinginfo.yml
+

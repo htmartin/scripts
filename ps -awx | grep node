@@ -1,0 +1,5 @@
+ps -awx | grep node
+
+#to check what node processes are running
+
+#kill the number of the node server running

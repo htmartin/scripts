@@ -1,0 +1,1 @@
+curl -s 'http://192.168.128.88:8983/solr/gettingstarted/select?indent=on&q=*deep%20learning*&rows=100&wt=json' | jq '.response|.docs[]|.title[]'

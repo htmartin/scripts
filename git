@@ -1,0 +1,30 @@
+1605  git pull --all
+ 1606  git branch -a
+ 1607  git branch time-offsets --track origin/time-offsets
+ 1608  git branch -a
+ 1609  git checkout time-offsets 
+ 1610  git pull
+ 1611  git push
+ 1612  git checkout master
+
+
+960  git branch -a
+  961  git pull --all
+  962  git fetch --prune
+  963  git branch -a
+  964  git checkout -b time-offsets
+  972  git status
+  973  git checkout master
+
+
+create a new branch and switch to it at the same time:
+git checkout -b <branch-name>
+
+NEW BRANCH is time-boundaries
+
+I am tracking changes locally (i.e., jurafsky) right?
+
+track changes remotely (in github)
+
+have other instances' versions of chomsky track changes locally
+

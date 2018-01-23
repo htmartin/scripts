@@ -1,0 +1,18 @@
+#AI NYC NLP Training venv:
+virtualenv -p /usr/local/bin/python3 ~/venv-nlp-ainyc
+source ~/venv-nlp-ainyc/bin/activate
+pip install -r requirements.txt
+
+#otherwise:
+source ~/venv-nlp-ainyc/bin/activate
+
+
+
+#AI Keras
+virtualenv -p /usr/local/bin/python3 ~/venv-keras-ainyc
+source ~/venv-keras-ainyc/bin/activate
+pip install -r requirements.txt
+
+#Tensorflow
+virtualenv --system-site-packages -p python3 ~/tensorflow/
+source ~/tensorflow/bin/activate

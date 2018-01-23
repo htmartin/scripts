@@ -1,0 +1,25 @@
+
+check .ssh/ directory for id_rsa.pub
+
+if none, run:
+ssh-keygen -tsra -b4096
+
+then:
+cat id_rsa.pub
+
+copy it 
+
+github, under your picture, settings, New SSH Key button, name it with instance and paste
+
+edit 
+
+~/chomsky/.git/config
+
+make sure you have url set to 
+
+	url = git@github.com:oreillymedia/chomsky.git
+
+
+~/taylor-oreilly/.git/config
+
+	url = git@github.com:htmartin/taylor-oreilly.git

@@ -1,0 +1,1 @@
+if test -d text_files ; then echo "It's true."; else; echo "Yikes!"; fi

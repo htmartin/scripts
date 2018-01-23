@@ -1,0 +1,48 @@
+http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
+
+2. Checking for the given string in multiple files.
+
+In ~/taylor-oreilly/topic_mapping/conference-search
+
+grep "strata" *.csv
+
+get huge #s of results
+
+3. Case insensitive search using grep -i
+
+Syntax:
+grep -i "strata" event_event_id_mapping.csv
+
+5. Checking for full words, not for sub-strings using grep -w
+#This still gives you the whole line the word is in
+
+grep -iw "strata" event_event_id_mapping.csv
+
+6. Displaying lines before/after/around the match using grep -A, -B and -C
+
+-A is the option which prints the specified N lines after the match as shown below.
+
+Syntax:
+grep -A <N> "string" FILENAME
+
+grep -A 3 strata event_event_id_mapping.csv
+#This doesn't work for some reason
+
+
+8. Searching in all files recursively using grep -r
+
+grep -r "strata" *
+grep -r "strata" ~/taylor-oreilly/topic_mapping/conference-search/*
+
+
+
+9. Invert match using grep -v
+
+11. Counting the number of matches using grep -c
+
+12. Display only the file names which matches the given pattern using grep -l
+
+13. Show only the matched string grep -o
+
+15. Show line number while displaying the output using grep -n
+

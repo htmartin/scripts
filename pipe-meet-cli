@@ -1,0 +1,28 @@
+cat <file> | more
+
+wc -l <filename> prints the line count (note that if the last line does not have \n, it will not be counted)
+wc -c <filename> prints the byte count
+wc -m <filename> prints the character count
+don't have: wc -L <filename> prints the length of longest line (GNU extension)
+wc -w <filename> prints the word count
+
+cat <file> | wc -w
+
+sebmac05436:~/scripts $ cat ~/taylor-oreilly/topic_mapping/data-search/sbow-queries.txt | wc
+     387    1472   15804
+
+sebmac05436:~/scripts $ cat ~/taylor-oreilly/topic_mapping/data-search/sbow-queries.txt | wc -w
+    1472
+
+sebmac05436:~/scripts $ cat ~/taylor-oreilly/topic_mapping/data-search/sbow-queries.txt | wc -l
+     387
+
+sebmac05436:~/scripts $ cat ~/taylor-oreilly/topic_mapping/data-search/sbow-queries.txt | wc -c
+   15804
+
+sebmac05436:~/scripts $ cat ~/taylor-oreilly/topic_mapping/data-search/sbow-queries.txt | wc -m
+   15804
+
+   
+sebmac05436:~/scripts $ cat ~/taylor-oreilly/topic_mapping/data-search/sbow-queries.txt | grep select | wc -w
+     445

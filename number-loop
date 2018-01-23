@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+
+#number=0
+#while [ "$number" -lt 15 ]; do
+#    echo "number = $number"
+#    number=$((number + 2))
+#done
+
+#number=0 
+#until [ "$number" -ge 20 ]; do
+#	echo "number = $number"
+#	number=$((number + 3))
+#done
+
+#still doesn't work
+number=0 
+while [ "$number" -ge 3 ] && [ "$number" -le 20 ]; do
+	echo "number = $number"
+	number=$((number + 1))
+done

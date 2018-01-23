@@ -1,0 +1,16 @@
+1958  head annot_fpid.json 
+ 1959  cat annot_fpid.json | jq .
+ 1960  cat annot_fpid.json | jq . [0]
+ 1961  cat annot_fpid.json | jq '.[0]'
+ 1962  cat annot_fpid.json | jq '.[]'
+ 1963  cat annot_fpid.json | jq '.[][]'
+ 1964  cat annot_fpid.json | jq '.[][]' -r
+ 1965  cat annot_fpid.json | jq '.[][]' -r | sort
+ 1966  cat annot_fpid.json | jq '.[][]' -r | sort | uniq
+ 1967  cat annot_fpid.json | jq '.[][]' -r | sort | uniq | -c
+ 1968  cat annot_fpid.json | jq '.[][]' -r | sort | uniq -c
+ 1969  cat annot_fpid.json | jq '.[][]' -r | sort | uniq -c | sort
+ 1970  man sort
+ 1971  cat annot_fpid.json | jq '.[][]' -r | sort | uniq -c | sort -g
+ 1972  cat annot_fpid.json | jq '.[][]' -r | sort | uniq -c | sort -gr
+ 1973  cat annot_fpid.json | jq '.[][]' -r | sort | uniq -c | sort -gr | head -10

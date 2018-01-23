@@ -1,0 +1,103 @@
+
+The | operator in jq feeds the output of one filter (.[0] which gets the first element of the array in the response) into the input of another ({...} which builds an object out of those fields). You can access nested attributes, such as .commit.message.ere’s a lot of info we don’t care about there, so we’ll restrict it down to the most interesting fields.
+
+jq '.[0] | {message: .commit.message, name: .commit.committer.name}'
+
+
+jq '.[0] | '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ovpnwest1-dynamic-172-24-41-2:~ tmartin$ curl -s 'http://192.168.128.88:8983/solr/gettingstarted/select?indent=on&q=*deep%20learning*&rows=100&wt=json' | jq '.response|.docs[]|.title[]'
+
+
+
+python3 pull_data.py | jq '.[]|.abstract'| grep -c '<div'
+
+
+ cat 1stlevel-json-sequences-example.json | jq '.[]' 
+
+jq '.[],{}'
+
+
+{
+  "name": "Buster",
+  "breed": "Golden Retriever",
+  "age": "4",
+  "owner": {
+    "name": "Sally"
+  },
+  "likes": [
+    "bones",
+    "balls",
+    "dog biscuits"
+  ]
+}
+
+jq '.name,.breed,.age'
+[
+  "Buster"
+  jq '.breed,.age'
+  "Golden Retriever",
+  "4" 
+]
+
+cat dog.json | jq '.name,.breed,.age'
+"Buster"
+"Golden Retriever"
+"4"
+
+
+jq '.owner.name'
+"Sally"
+
+jq '.likes[0]'
+"bones"
+
+NEW TEXT
+echo '["a","b","c","d","e"]' | jq '.[2:4]'
+[
+  "c",
+  "d"
+]
+
+
+
+NEW TEXT
+
+[
+  {
+    "id": 1,
+    "name": "Arthur",
+    "age": "21"
+  },
+  {
+    "id": 2,
+    "name": "Richard",
+    "age": "32"
+  }
+]
+
+Both
+jq '.[] | .name'
+jq '.[] | .name' names.json
+Result in:
+"Arthur"
+"Richard"
+
+
