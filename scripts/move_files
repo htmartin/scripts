@@ -1,8 +1,0 @@
-#!/bin/bash
-for i in {000..100}; do
- mv $i-* folder-name/
-done
-
-#to make this executable, do(only once) chmod +x file_name
-#to run on command line, be in dir files you want to move are in,
-#type ./file_name

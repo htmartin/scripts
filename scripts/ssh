@@ -1,9 +1,0 @@
-ssh <IP address>
-
-or 
-
-ssh <domain name> e.g., someplace.com
-
-if your remote username is different than local one, then do
-ssh user@domainname or user@10.4.75...
-

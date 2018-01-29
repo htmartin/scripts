@@ -1,9 +1,0 @@
-scp
-
-scp [source] [destination]
-
-scp -r
-
-scp -r tm/ taylor@elias:~/
-
-rsync?

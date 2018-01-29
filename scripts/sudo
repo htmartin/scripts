@@ -1,6 +1,0 @@
-sudo cp file1 file2
-
-sudo reboot
-
-sudo apt-get install ruby
-

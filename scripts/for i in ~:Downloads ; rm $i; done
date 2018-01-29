@@ -1,1 +1,0 @@
-for i in ~/Downloads ; rm $i; done
