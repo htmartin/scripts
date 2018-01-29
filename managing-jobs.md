@@ -32,3 +32,6 @@ funwithflags:~/scripts (master ) $ bg
 [2]+ sleep 180 &
 funwithflags:~/scripts (master ) $ bg
 -bash: bg: job 2 already in background
+
+
+### fg/bg and specific job number will foreground/background that job
