@@ -35,3 +35,13 @@ funwithflags:~/scripts (master ) $ bg
 
 
 ### fg/bg and specific job number will foreground/background that job
+
+### ps
+
+kill
+killall (e.g., `killall firefox` if problems with firefox will stop all jobs )
+
+pgrep (= ps | grep)
+pkill
+
+kill -9 is total kill
