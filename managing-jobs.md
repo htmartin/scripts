@@ -1,5 +1,5 @@
 
-jobs
+## bg and fg, ps, kill
 
 - what jobs are running (doesn't ps do that?)
 
@@ -64,8 +64,8 @@ taylor@elias:~ $ pgrep bash
 
 pkill
 
-kill -9 is total kill
-
+kill -9 is total kill (for unresponsive etc)
+(-15 is terminate)
 ps - l
 
 long

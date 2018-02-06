@@ -1,4 +1,4 @@
-# All from procps package
+# All from procps package: top, uptime
 
 # uptime
 
@@ -8,3 +8,4 @@ sebmac05436:~/scripts $ uptime
 - load averages are over the last 1 min, 5 min & 15 min
 - For a single core, values should be less than 1 (dual core less than 2, etc)
 
+# top
