@@ -24,3 +24,5 @@ opens a new window
      'd' or <Space> toggles display, 's' sets sort.  Use 'q' or <Esc> to end!
 
  it's f to enter, up/d arrows to move, s to sort (select) then <Esc> to go back to regular window.
+
+r (renice) reorder priority of jobs
