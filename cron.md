@@ -27,3 +27,8 @@ PATH=/root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 `#17 */6 * * * ubuntu-mirror-sync.sh >> /var/log/ubuntu-mirror-sync.log 2>&1`
 `17 23 * * * ubuntu-mirror-sync.sh >> /var/log/ubuntu-mirror-sync.log 2>&1`
+
+
+# anacron
+- at most once a day
+- offset from startup
