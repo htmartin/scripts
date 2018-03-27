@@ -1,5 +1,4 @@
 #!/bin/bash
 
-rsync -azvP tm taylor@elias:~/tm
+rsync -azvP tm taylor@elias:~/
 
-rsync -azvP scripts taylor@elias:~/scripts
