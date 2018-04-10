@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rsync -azvP tm taylor@elias:~/
+rsync -azvP tm/ taylor@elias:~/
 
