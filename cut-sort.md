@@ -60,4 +60,19 @@ cut -f2,4 -d"," usage-agg-grouped.csv | head | sort -gr
               natural sort of (version) numbers within text
 
 
+### work with columns with sort
+sort -k4 -t",""
+sort on 4th column, using the comma delimiter
+
+
+
+
+
+
+
+
+
+
+
+
 

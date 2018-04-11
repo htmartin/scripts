@@ -1,0 +1,50 @@
+type	rank	popularity	fpid	kind	name
+f	1	1.0000	9780134661742	video	Clean Code
+a	1	1.0000	9780134661742	video	Robert C. Martin
+f	2	0.9226	9780134494272	book	Clean Architecture: A Craftsman's Guide to Software Structure and Design
+a	2	0.9226	9780134494272	book	Robert C. Martin
+f	3	0.8630	9781491962282	book	Hands-On Machine Learning with Scikit-Learn and TensorFlow
+a	3	0.8630	9781491962282	book	Aurelien Geron
+f	4	0.7461	9781119138556	book	AWS Certified Solutions Architect Official Study Guide
+a	4	0.7461	9781119138556	book	Biff Gaut
+a	4	0.7461	9781119138556	book	Hisham Baz
+a	4	0.7461	9781119138556	book	Joe Baron
+a	4	0.7461	9781119138556	book	John Stamper
+a	4	0.7461	9781119138556	book	Kevin E. Kelly
+a	4	0.7461	9781119138556	book	Sean Senior
+a	4	0.7461	9781119138556	book	Tim Bixler
+f	5	0.6017	9780134702186	video	Amazon Web Services AWS: AWS Fundamentals
+a	5	0.6017	9780134702186	video	Richard A. Jones
+f	6	0.5907	9781491903063	book	Designing Data-Intensive Applications, 1st Edition
+a	6	0.5907	9781491903063	book	Martin Kleppmann
+f	7	0.4725	9780134699967	video	Learning Path: CCNA Routing and Switching (ICND1 100-105, ICND2 200-105, and CCNA 200-125)
+a	7	0.4725	9780134699967	video	Kevin Wallace
+f	8	0.4350	9780134217543	video	ITIL Foundation Exam
+a	8	0.4350	9780134217543	video	Jill Knapp
+f	9	0.4290	9781491957653	book	Python for Data Analysis, 2nd Edition
+a	9	0.4290	9781491957653	book	William Wesley McKinney
+f	10	0.3891	9781491904794	video	Introduction to Python
+a	10	0.3891	9781491904794	video	Jessica McKellar
+f	11	0.3876	9781491912201	book	Spark: The Definitive Guide
+a	11	0.3876	9781491912201	book	Bill Chambers
+a	11	0.3876	9781491912201	book	Matei Zaharia
+f	12	0.3790	9780136083238	book	Clean Code
+a	12	0.3790	9780136083238	book	Robert C. Martin
+f	13	0.3701	9781491936153	book	Kafka: The Definitive Guide
+a	13	0.3701	9781491936153	book	Gwen Shapira
+a	13	0.3701	9781491936153	book	Neha Narkhede
+a	13	0.3701	9781491936153	book	Todd Palino
+f	14	0.3445	9781449355722	book	Learning Python, 5th Edition
+a	14	0.3445	9781449355722	book	Mark Lutz
+f	15	0.3387	9780133489354	video	Java 8 Fundamentals: Modern Java Development with Lambdas, Streams, and Introducing Java 9's JShell and the Java Platform Module System (JPMS)
+a	15	0.3387	9780133489354	video	Paul Deitel
+f	16	0.3245	9780134723990	video	Red Hat Certified System Administrator (RHCSA) with Virtual Machines, Second Edition
+a	16	0.3245	9780134723990	video	Sander van Vugt
+f	17	0.3226	0636920103295	olt	Amazon Web Services: Solutions Architect Associate Certification Training
+a	17	0.3226	0636920103295	olt	Mark Wilkins
+f	18	0.3101	0596007124	book	Head First Design Patterns
+a	18	0.3101	0596007124	book	Bert Bates
+a	18	0.3101	0596007124	book	Elisabeth Robson
+a	18	0.3101	0596007124	book	Eric Freeman
+a	18	0.3101	0596007124	book	Kathy Sierra
+f	19	0.3011	9780134770826	video	Deep Learning with TensorFlow: Applications of Deep Neural Networks to Machine Learning Tasks
