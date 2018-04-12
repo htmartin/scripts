@@ -19,7 +19,7 @@ cut -f2,4 -d"," usage-agg-grouped.csv | head | sort -gr
 
 
 ### sort options
- -b, --ignore-leading-blanks
+       -b, --ignore-leading-blanks
               ignore leading blanks
 
        -d, --dictionary-order
