@@ -60,13 +60,14 @@ cut -f2,4 -d"," usage-agg-grouped.csv | head | sort -gr
               natural sort of (version) numbers within text
 
 
-### work with columns with sort
-sort -k4 -t",""
+### work with columns with sort (problem was the tsv, there aren't commas between the fields)
+sort -k2 -t"," -n top_names-short.csv
 sort on 4th column, using the comma delimiter
 
 
 
-
+## combine cut and sort
+ cut -f4 -d"," top_names-short.tsv | sort -u
 
 
 
