@@ -13,3 +13,5 @@ To add to start of every line:
 put a ^ in the find what box (this is regex for start of every line)
 put text etc you want to replace it with in replace with box
 make sure regex enabled
+
+
