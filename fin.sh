@@ -4,7 +4,7 @@
 
 open https://mint.com/
 
-open https://docs.google.com/spreadsheets/d/1KfmbPV7ZWOkKK1IYnfGv-r0UBd7KmUjUYKqaJiqvp20/edit#gid=555422107
+open https://docs.google.com/spreadsheets/d/1PNWLwuLEqcPfP0GZoEp2pD17V6YWGPgsmAWxLoM2R18/edit#gid=111155345
 
 open https://lastpass.com/
 
