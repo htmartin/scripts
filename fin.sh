@@ -13,3 +13,5 @@ open https://www.usaa.com/inet/ent_logon/Logon?logoffjump=true
 open https://www.amazon.com/
 
 open https://connect.secure.wellsfargo.com/auth/login/present
+
+open https://keep.google.com/#home
