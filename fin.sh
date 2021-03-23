@@ -14,3 +14,4 @@ open https://www.amazon.com/
 
 open https://keep.google.com/#home
 
+open https://console.cloud.google.com/bigquery?project=mmm-ad-finance-b05d
